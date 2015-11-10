@@ -1,0 +1,105 @@
+/* estilos generales */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.pad-section {
+    padding: 50px 0;
+}
+.pad-section img {
+    width: 100%;
+}
+
+/* titulares */
+
+h1 {
+    color:white; /*rgb(255,255,255);*/
+}
+
+/* texto centrado Y */
+.text-vc {
+   display:table-cell;
+   text-align:center;
+   vertical-align:middle;
+}
+.text-vc h1 {
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(255,255,255);
+    font-size:4em;
+    font-weight:700;
+    margin:0;
+    padding:0;
+}
+
+/* misc. */
+
+#inicio {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    display:table;
+    height:100%;
+    position:relative;
+    width:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+/* fuente especial */
+.spfont {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#acerca {
+
+}
+
+#servicios {
+    background-color: rgb(94,127,226);
+    color:rgb(255,255,255);
+}
+
+#servicios .glyphicon {
+    border: 2px solid rgb(255,255,255);
+    border-radius:50%;
+    display:inline-block;
+    font-size:60px;
+    height:140px;
+    line-height:140px;
+    text-align:center;
+    vertical-align:middle;
+    width:140px;
+}
+
+#informacion {
+    background:url(../img/us.jpg) no-repeat center center fixed;
+    display:table;
+    height:auto;
+    position:relative;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#informacion .panel {
+    opacity:0.85;
+}
+
+#contacto {
+   background-color:rgb(94,127,226);
+   color:rgb(255,255,255);
+}
+footer {
+    padding:20px 0;
+}
+
+footer .glyphicon {
+    color: rgb(94,127,226);
+    font-size:60px;
+}
+
+footer .glyphicon:hover {
+    color:rgba(94,127,226,0.1);
+}
