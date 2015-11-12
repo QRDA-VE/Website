@@ -31,6 +31,18 @@ h1 {
     margin:0;
     padding:0;
 }
+.ft {
+    display:inline-block;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid #fff;
+    padding: 10px 10px;
+}
+.btn {
+    margin-top: 30px;
+    border-radius:0!important;
+    border-color:#fff!important;
+    background: rgba(0,0,0,0.3)!important;
+}
 
 /* misc. */
 
