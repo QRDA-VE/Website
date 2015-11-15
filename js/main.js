@@ -1,3 +1,4 @@
+// transiciones lentas
 jQuery(document).ready(function($) {
     
     $('a[href^=#]').on("click",function(e){
@@ -10,4 +11,13 @@ jQuery(document).ready(function($) {
         }
     })
 
+});
+
+// jQuery para colapsar el navbar mientras se desplaza
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
 });
