@@ -11,11 +11,11 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <!-- panel de navegacion -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <!-- el logo y toggle se agrupan, amigable para mobile -->
             <div class="navbar-header">
@@ -46,8 +46,9 @@
                 <h1>Hola mundo, somos QR_DA</h1>
             </div>
             <br>
-            <a href="#acerca" class="btn btn-primary" role="button">
-            Saber m&aacute;s</a>
+            <a href="#acerca" class="btn btn-primary btn-lg" role="button">
+                <i class="fa fa-hand-o-down page-scroll"></i>
+            </a>
         </div>
     </div>
     <!-- /INICIO -->
@@ -57,9 +58,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="spfont">
-                        <h1>QR_DA</h1>
-                    </div>
+                <h1>QR_DA</h1>
                 </div>
                 <div class="col-sm-6 text-center">
                     <h2>¿Qui&eacute;nes somos?<h2>
@@ -75,7 +74,7 @@
     <!-- SERVICIOS -->
     <div id="servicios" class="pad-section">
         <div class="container">
-            <h2 class="text-center">Que hacemos?</h2> <hr />
+            <h2 class="text-center">¿Qu&eacute; hacemos?</h2> <hr />
             <div class="row text-center">
                 <div class="col-sm-3 col-xs-6">
                     <i class="glyphicon glyphicon-zoom-in"></i>
@@ -117,11 +116,10 @@
 	        </div>
 	      </div>
 	      <div class="col-sm-6">
-	        <div class="panel panel-default">
+                  <!-- 
 	          <div class="panel-heading">
 	            <h2 class="panel-title">Tweets de @QRDAve</h2>
-	          </div>
-	          <div class="panel-body lead">
+            </div>  -->
 	                <a class="twitter-timeline"  href="https://twitter.com/QRDAve" data-widget-id="665322855530405890">Tweets por el @QRDAve.</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	          </div>
@@ -169,7 +167,7 @@
                             <div class="form-group">
                                 <label class="col-sm-4 control-label" for="singlebutton"></label>
                                 <div class="col-sm-4">
-                                    <button id="singlebutton" class="btn btn-primary">Enviar</button>
+                                    <button id="singlebutton" class="btn btn-custom btn-default">Enviar</button>
                                 </div>
                             </div>
                         </fieldset>
@@ -193,6 +191,5 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/github-repo-widget/e23d85ab8f/jquery.githubRepoWidget.min.js"></script>
     <script src="js/main.js"></script>
-
 </body>
 </html>
