@@ -179,9 +179,6 @@ h1, h2, h3, h4, h5 {
     -o-background-size: cover;
     background-size: cover;
 }
-#informacion .panel {
-    opacity:0.85;
-}
 
 #contacto {
     font-family: 'Raleway', sans-serif;
